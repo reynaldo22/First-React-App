@@ -31,3 +31,126 @@
     transform: rotate(360deg);
   }
 }
+
+.landing {
+  width: 100%;
+  margin: auto;
+}
+
+.header-grid {
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 10em;
+}
+
+.banner-text {
+  background-color: #000;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner-text hr {
+  border-top: 5px dotted #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links a {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+.contact-body {
+  background-color: grey;
+  margin-bottom: 5em;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 850px;
+  background: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  margin-bottom: 20px;
+}
+
+.desc {
+  width: 75%;
+  margin: auto;
+  padding-top: 1em; 
+}
+
+.contact-grid hr {
+  border-top:  5px dotted #000;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+#map {
+  margin-top: 2em;
+  margin-left: 2em;
+  width: 500px;
+  height: 250px;
+}
+
+.right-side {
+  background-color: #000;
+  color: #fff;
+  padding: 2em;
+}
